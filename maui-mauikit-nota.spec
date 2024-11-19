@@ -1,7 +1,8 @@
 Name:          maui-mauikit-nota
 Version:       4.0.0
 Release:       %autorelease
-License:       BSD-3-Clause AND MIT AND GPL-2.0-or-later AND GPL-3.0-or-later AND CC0-1.0
+# the apache license if for gradle-wrapper.jar
+License:       BSD-3-Clause AND MIT AND GPL-2.0-or-later AND GPL-3.0-or-later AND CC0-1.0 AND Apache-2.0
 Summary:       Nota is a simple text editor for desktop and mobile computers
 URL:           https://apps.kde.org/nota/
 
@@ -39,7 +40,6 @@ Requires:      maui-mauikit-terminal
 
 %prep
 %autosetup -n nota-v%{version} -p1
-rm -r src/android_files
 
 
 %build
