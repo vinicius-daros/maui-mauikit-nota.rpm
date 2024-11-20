@@ -8,7 +8,7 @@ URL:           https://apps.kde.org/nota/
 
 Source0:       https://invent.kde.org/maui/nota/-/archive/v4.0.0/nota-v%{version}.tar.gz
 
-#patch for the licenses while upstream don't merge https://invent.kde.org/maui/nota/-/merge_requests/11
+#backport of the licenses fix to 4.0.0
 Patch1:        LICENSES.patch
 
 BuildRequires: extra-cmake-modules
